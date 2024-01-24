@@ -1,7 +1,11 @@
+# glm2 -> glm3 数据集格式转换
+# glm2 -> alpaca格式
+# glm3 -> alpaca格式
+# 填写路径即可，会在本目录下生成 “前缀”+原文件名 的新文件
+
 import json
 
-
-# flm2 转 glm3多轮  无用.
+# glm2 转 glm3多轮  无用.
 def conversion(path):
     list1 = [
         {
